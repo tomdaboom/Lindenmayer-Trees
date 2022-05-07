@@ -29,6 +29,6 @@ executable Lindenmayer
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
-    build-depends:    base ^>=4.14.3.0, gloss==1.13.*, mtl==2.2.2, aeson==2.0.3.0, text
+    build-depends:    base ^>=4.14.3.0, gloss==1.13.*, mtl==2.2.2, aeson==2.0.3.0, text, bytestring
     hs-source-dirs:   app
     default-language: Haskell2010
