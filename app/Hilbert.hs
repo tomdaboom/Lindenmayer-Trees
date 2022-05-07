@@ -15,7 +15,7 @@ rules = [
 
 imap :: InstructionTable
 imap = [
-    ('F', [Forward 40]),
+    ('F', [Forward 20]),
     ('+', [LeftRot (pi/2)]),
     ('-', [RightRot (pi/2)])
     ]
