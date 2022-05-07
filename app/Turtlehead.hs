@@ -15,8 +15,8 @@ type Line = (Position, Position)
 
 data TurtleState = TurtleState {
     pos :: Position,
-    heading :: Float, -- Anticlockwise rotation in radians
-    stack :: [(Position, Float)]
+    heading :: Heading, -- Anticlockwise rotation in radians
+    stack :: [(Position, Heading)]
 } deriving (Show, Eq)
 
 convertToInstructions :: InstructionTable -> LString -> [Instruction]
