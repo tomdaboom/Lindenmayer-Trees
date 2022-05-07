@@ -10,7 +10,7 @@ import Graphics.Gloss
 rules :: Rules
 rules = [
     ('A', "+BF-AFA-FB+"),
-    ('B', " -AF+BFB+FA-")
+    ('B', "-AF+BFB+FA-")
     ]
 
 imap :: InstructionTable
