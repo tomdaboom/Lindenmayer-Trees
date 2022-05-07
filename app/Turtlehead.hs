@@ -67,7 +67,6 @@ updateTurtle Pop = do
     put currentState { pos = newPos, heading = newHead, stack = newStack }
     return Nothing
 
-
 runUpdates :: [Instruction] -> TurtleState -> [Line]
 runUpdates = evalState . runUpdates' 
 
