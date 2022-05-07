@@ -6,10 +6,11 @@ import StringGenerator
 import Turtlehead
 import Render
 
-import DragonCurve
+--import DragonCurve
 --import HexSierpinski
 --import FractalTree
 --import BarnsleyFern
+import Hilbert
 
 width, height :: Int
 width = 800
