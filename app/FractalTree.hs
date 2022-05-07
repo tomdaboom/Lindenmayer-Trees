@@ -6,7 +6,7 @@ import Render
 import Graphics.Gloss
 
 moveDist :: Float
-moveDist = 40
+moveDist = 20
 
 rules :: Rules
 rules = [
