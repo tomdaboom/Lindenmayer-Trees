@@ -15,7 +15,7 @@ type Line = (Position, Position)
 
 data TurtleState = TurtleState {
     pos :: Position,
-    heading :: Float, -- Anticlockwise rotation from (1, 0) in radians
+    heading :: Float, -- Anticlockwise rotation in radians
     stack :: [(Position, Float)]
 } deriving (Show, Eq)
 
