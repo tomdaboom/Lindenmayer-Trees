@@ -26,4 +26,4 @@ startString :: LString
 startString = "F"
 
 iters :: Int
-iters = 12
+iters = 13
